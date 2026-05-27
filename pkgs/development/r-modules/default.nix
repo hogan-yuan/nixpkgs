@@ -2108,6 +2108,13 @@ let
       postPatch = "patchShebangs configure";
     });
 
+    h5mread = old.h5mread.overrideAttrs (_: {
+      postPatch = ''
+        substituteInPlace src/Makevars \
+          --replace-fail 'PKG_LIBS=' 'PKG_LIBS=-lhdf5 -l hdf5_hl '
+      '';
+    });
+
     genoCN = old.genoCN.overrideAttrs (attrs: {
       postPatch = ''
         # https://developer.r-project.org/blosxom.cgi/R-devel/NEWS/2025/01/08#n2025-01-08
