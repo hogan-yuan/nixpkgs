@@ -92476,7 +92476,7 @@
     "metan": {
       "name": "metan",
       "version": "1.19.0",
-      "sha256": "1l63rcr1wn2dvl26cmfn2q8yk6mhg84zcz0l5wla4ii6dmlz002r",
+      "sha256": "1r0bcjkg1pjiysx2p7b392var71afz8rxgsbxhc800i2v9da0v5m",
       "depends": ["GGally", "dplyr", "ggforce", "ggplot2", "ggrepel", "lme4", "lmerTest", "magrittr", "mathjaxr", "patchwork", "purrr", "rlang", "tibble", "tidyr", "tidyselect"]
     },
     "metanetwork": {
