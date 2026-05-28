@@ -130804,7 +130804,7 @@
     "survivalsvm": {
       "name": "survivalsvm",
       "version": "0.0.6",
-      "sha256": "0ypbzlzpfkgfdpyk8bj0fgj8ay1qm2c4j78assa8pmxs2gx8yjl0",
+      "sha256": "180nd700iv50rfkzpdd1yxpg6fz1sc7j08rssap578ckc9lh6fr6",
       "depends": ["Hmisc", "Matrix", "kernlab", "pracma", "survival"]
     },
     "survivoR": {
